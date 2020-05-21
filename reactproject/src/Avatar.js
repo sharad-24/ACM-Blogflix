@@ -1,0 +1,236 @@
+import  React,{Component} from 'react';
+import Slider from 'infinite-react-carousel';
+import './Avatar.css';
+import './css/bootstrap.css';
+import './css/font-awesome.min.css';
+import './css/nice-select.css';
+import './css/owl.carousel.min.css';
+import './css/owl.theme.default.min.css';
+import './css/unslider.css';
+import './css/responsive.css';
+
+
+
+import "bootstrap/dist/css/bootstrap.css";
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import 'react-multi-carousel/lib/styles.css';
+
+import {Bumbotron, Button, Carousel } from 'react-bootstrap'
+class Avatar extends Component{
+
+        
+        
+        render(){
+        return(
+
+<div className="Avatar">
+
+<html lang="en" className="colour">
+ <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Front page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+
+
+
+    <div className="wrapper">
+        <header className="header">
+            <div className="container">
+                <div className="row">
+                
+                    <div className="col-md-12">
+                        <div className="menu">
+                            <ul>
+                                <li className=""><a href="#">Log in</a></li>
+                                  <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li style={{fontsize: "30px"}}><a href="#" >BLOG</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        </div>
+        
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="slider-container "
+      src={require('./img/Main image.png')}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="slider-container "
+    src={require('./img/Main image.png')}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="slider-container "
+      src={require('./img/Main image.png')}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+<br />
+<br />
+<section className="joinus">
+    <div className="row cont h-100">
+        <div className="col-md-7 my-auto">
+            <p className="headin">Join Our Community</p>
+            <p className="head_cont">
+                Lorem ipsum dolor sit amet, consectetur adipiscing  elit,
+                sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. 
+                Ut enim ad minim veniam, quis  nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex  ea commodo consequat.
+            </p>
+        </div>
+        <div className="col-md-4 my-auto">
+            <form className="Login">
+                <input className="box1" type="text" name="" placeholder="Name" /><br />
+                <input className="box1" type="text" name="" placeholder="Email" /><br />
+                <button className="join" type="button">Join</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+ <div className="Crible_block">
+            
+            <div className="row">
+                <div className="col-md-4 pad_0">
+                                <img className="image2" src={require('./img/4-512.png')} />
+                    <p className="Crible_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellat perspiciatis magnam quod delectus quisquam porro ullam veritatis ea aperiam ab!
+                    </p>
+                   <h1 className="Crible_head">  <img className="image" src={require('./img/circle-cropped.png')} /> Lorem ipsum
+                   </h1>
+                </div>
+                <div className="col-md-4 pad_0">
+                    
+                   <img className="image2" src={require('./img/4-512.png')} />
+                    <p className="Crible_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellat perspiciatis magnam quod delectus quisquam porro ullam veritatis ea aperiam ab!
+                    </p>
+                     <h1 className="Crible_head">  <img className="image" src={require('./img/circle-cropped.png')} /> Lorem ipsum
+                     </h1>
+                </div>
+                <div className="col-md-4 pad_0">
+                    <img className="image2" src={require('./img/4-512.png')} />
+                    
+                    <p className="Crible_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Repellat perspiciatis magnam quod delectus quisquam porro ullam veritatis ea aperiam ab!
+                    </p> 
+                    <h1 className="Crible_head">  <img className="image" src={require('./img/circle-cropped.png')} /> Lorem ipsum
+                   
+                    </h1>
+                   
+                </div>
+            </div>
+        </div>
+
+
+<br />
+
+
+
+
+
+
+<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
+
+
+<section>
+  <br />
+    <div className="container footer2">
+       
+
+
+      <div className="row align-items-center footer2">
+    
+  <div  className= "col-md-6 footer5">
+    <h className="footer3 footer6">
+     Terms of Use  |  Privacy Policy  |  Cookies
+   </h>
+  
+ 
+
+</div>
+<div className="col-md-3 col-md-offset-3">
+  <a href="#" className="fa fa-facebook"></a>
+<a href="#" className="fa fa-twitter"></a>
+<a href="#" className="fa fa-google"></a>
+<a href="#" className="fa fa-linkedin"></a>
+</div>
+   
+</div>
+</div>
+</section>
+
+<section>
+  <div className="container footer4">
+       
+
+
+        <div className="row footer3">
+    <div className="footer5">
+    <h className="footer6">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur . Excepteur sint occaecat cupidatat non  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+   </h>
+  </div>
+</div>
+  </div>
+</section>
+<br />
+<br />
+
+        </html>
+
+</div>
+
+
+
+        );
+                
+            
+      }
+    }
+        
+    
+
+    
+
+export default Avatar;
