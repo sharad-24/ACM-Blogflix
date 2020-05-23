@@ -56,6 +56,7 @@ class Avatar extends Component{
                                 <li><a href="#">Categories</a></li>
                                 <li style={{fontsize: "30px"}}><a href="#" >BLOG</a></li>
                                 <li><a href="#">Contact</a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -103,6 +104,261 @@ class Avatar extends Component{
 </Carousel>
 <br />
 <br />
+
+<section>
+
+<div className="grid-container_featured">
+    <div className="grid-item1">FEATURED</div>
+    <div className="grid-item colour2">
+
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+          
+        <h4>Lorem&nbsp;ipsum</h4>
+
+        <p>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+
+        </p>
+
+          <button>
+            
+            Start
+
+          </button>
+
+
+    </div>
+    <div className="grid-item colour2">
+
+
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+          
+          <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+
+          </p>
+
+          <button>
+            
+            Start
+
+          </button>
+
+
+    </div>
+    <div className=" grid-item grid-item3 colour2">
+
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="550px" width="150px" align="center" />
+          
+          <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+
+          </p>
+
+          <button>
+            
+            Start
+
+          </button>
+
+    </div>
+    <div className="grid-item colour2">
+
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+
+          
+          <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+
+          </p>
+
+          <button>
+            
+            Start
+
+          </button>
+
+    </div>
+    <div className="grid-item colour2">
+      
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+          
+          <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+
+          </p>
+
+          <button>
+            
+            Start
+
+          </button>
+
+    </div>
+    </div>
+
+
+
+<div className="grid-container_latest">
+  <div className="grid-item_latest1">LATEST</div>
+
+  <div className="grid-item_latest colour2">
+
+    <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
+    
+    <h4 >Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet
+
+          </p>
+
+  </div>
+  <div className="grid-item_latest colour2">
+
+    <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
+    
+    <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet
+
+          </p>
+
+  </div>
+  <div className="grid-item_latest colour2">
+
+    <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
+
+    <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet
+          </p>
+    
+
+  </div>
+  <div className="grid-item_latest colour2">
+
+    <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
+
+    <h4>Lorem&nbsp;ipsum</h4>
+
+          <p>
+          
+          Lorem ipsum dolor sit amet
+
+          </p>
+    
+
+  </div>
+
+</div>
+
+
+
+
+
+</section>
+
+
+<section>
+
+<div className="grid-container5 colour3">
+
+    <div className="grid-item15 grid-item5">Popular Categories</div>
+
+    <div className="grid-item5">
+      
+
+      <img src={require('./img/sydney-best-GETTY.webp')} align="left" width="20px" />
+
+      <h3>lorem ipsum</h3>
+
+      <p>
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt
+
+      </p>
+
+      <button className="button5">
+        
+        lorem
+
+      </button>
+
+
+
+    </div>
+
+    <div className="grid-item25 grid-item5">
+      
+
+      <img src={require('./img/sydney-best-GETTY.webp')} align="left" />
+
+      <h3>lorem ipsum</h3>
+
+      <p>
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt
+
+      </p>
+
+
+      <button className="button5">
+        
+        lorem
+
+      </button>
+
+
+    </div>
+
+    <div className="grid-item35 grid-item5">
+      
+
+      <img src={require('./img/sydney-best-GETTY.webp')} align="left" />
+
+      <h3>lorem ipsum</h3>
+
+      <p>
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt
+
+      </p>
+
+      <button className="button5">
+        
+        lorem
+
+      </button>
+
+
+
+    </div>
+
+  </div>
+</section>
+
 <section className="joinus">
     <div className="row cont h-100">
         <div className="col-md-7 my-auto">

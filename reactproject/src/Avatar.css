@@ -80,11 +80,12 @@
 .wrapper header.header .menu ul li.active a {
     background: #40c4ff;
     color: #fff;
+
 }
 
-.wrapper header.header .menu ul li a:hover {
-    background: #40c4ff;
-    color: #fff;
+.wrapper header.header .menu ul li a:hover, a:active{ 
+       font-size: 250%;
+   
 }
 .slider-container {
     width: 100%;
@@ -247,3 +248,209 @@ input[type="text"]{
      width: 20%;
      padding-left: 20px;
  }
+
+
+/*blog section*/
+
+
+.colour2{
+    background-color: white;
+}
+
+
+.grid-container_featured{
+
+            display: inline-grid;
+            grid-template-areas: 'newArea newArea newArea';
+            grid-template-rows: 50px 350px 350px;
+            justify-content: center;
+            grid-column-gap: 15px;
+            grid-row-gap: 5px;
+            background-color: #d6d6d6;
+            margin: 5px 10px 10px 25px;
+            width: 70%;
+        }
+        .grid-item{
+            padding: 10px;
+            box-shadow: 3px 3px 5px #ada8a8;
+            text-align: center;
+        }
+        .grid-item1 {
+            grid-area: newArea;
+            font-size: 32px;
+            color: #09373c;
+            font-family:  Open Sans;
+            margin: 2px;
+            text-align: center;
+        }
+        .grid-item3{
+            grid-row: 2 / 4;
+            grid-column: 2 / 3;
+        }
+        .grid-item h4{
+
+            font-size: 20px;
+            font-family:  Open Sans;
+            margin: 5px;
+            padding: 5px;
+            color: #09373c;
+            text-align: center;
+
+        }
+        .grid-item p{
+
+            margin: 0px;
+            text-align: justify;
+
+        }
+        button{
+
+            display: inline-block;
+            background-color: #0a9ea1;
+            color: white;
+            border-style: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family:  Open Sans;
+            float: right;
+        }
+
+        .grid-container_latest{
+
+            display: inline-grid;
+            grid-template-areas: 'newArea';
+            grid-template-rows: 50px 175px 175px 175px 175px;
+            grid-row-gap: 2px;
+            background-color: #d6d6d6;
+            margin: 5px 10px 10px 5px;
+            width: 20%;
+            /*position: absolute;
+            right: 10px;
+            top: 10px;*/
+            /*box-shadow: 3px 3px 3px #ada8a8;*/
+        }
+        .grid-item_latest{
+            padding: 10px;
+            box-shadow: 3px 3px 5px #ada8a8;
+            text-align: center;
+        }
+        .grid-item_latest1 {
+            grid-area: newArea;
+            font-size: 32px;
+            color: #09373c;
+            font-family:  Open Sans;
+            margin: 2px;
+            text-align: center;
+        }
+        .grid-item_latest h4{
+
+            font-size: 20px;
+            font-family:  Open Sans;
+            margin: 5px;
+            padding: 5px;
+            color: #09373c;
+            text-align: center;
+
+        }
+        .grid-item_latest p{
+
+            margin: 0px;
+            text-align: justify;
+
+        }
+
+        @media (min-width: 999px){
+
+        .grid-container_latest{
+
+            position: relative;
+            left: 20px;
+           
+        }
+        }
+
+        @media (max-width: 998px){
+
+
+            .grid-container_featured{
+
+            align-items: center;
+            margin: 15px;
+        }
+
+
+        .grid-container_latest{
+
+            margin: 15px;
+            align-items: center;
+        }
+
+
+        }
+
+
+
+        /*categories*/
+        .grid-container5{
+
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            margin: 10px;
+            background-color: white;
+        }
+        .grid-item5{
+
+            padding: 15px;
+        }
+        .grid-item15{
+
+            font-size: 50px;
+            color: #09373c;
+            font-family:  Open Sans;
+        text-align: center;
+
+        }
+        .grid-item25{
+
+            position: relative;
+            left: 25%;
+
+        }
+        .grid-item35{
+
+            position: relative;
+            left: 50%;
+
+        }
+        .grid-item5 img{
+
+            height: 100px; 
+            width: 100px;
+            border-radius: 100px;
+            float: left;
+            margin: 10px;
+        }
+        .grid-item5 h3{
+
+            font-size: 20px;
+            font-family:  Open Sans;
+            margin: 5px;
+            padding: 5px;
+            color: #09373c;
+        }
+        .button5{
+
+            display: inline-block;
+            background-color: #2fe3e6;
+            color: white;
+            border-style: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family:  Open Sans;
+            float: left;
+            padding: 5px 10px;
+        }
+
+        .colour3{
+            background-color:  #d6d6d6;
+        }
